@@ -1,6 +1,5 @@
 #include "MPU6050.h"
-#define mpu_scl 1;
-#define mpu_sda 1;
+#define mpu_addr 0x68;
 MPU6050 mpu;
 int16_t ax, ay, az;
 int16_t gx, gy, gz;
