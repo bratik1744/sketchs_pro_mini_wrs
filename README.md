@@ -5,5 +5,4 @@
 <h3>#define motor 1;<h3>
 <h3>#define depth_rx 1;<h3>
 <h3>#define depth_tx 1;<h3>
-<h3>#define mpu_scl 1;<h3>
-<h3>#define mpu_sda 1;<h3>
+<h3>#define mpu_addr 0x68;<h3>
