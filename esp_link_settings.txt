@@ -1,0 +1,12 @@
+10.0.0.17
+
+Tibbo VSP Manager
+
+VSP Properties
+transport protocol: TCP
+connection mode: immedialty
+On-the-fly commands: Out-of-band
+ip-address: 10.0.0.17 : 23
+
+Default Serial Settings
+baud rate (bps): 57600
