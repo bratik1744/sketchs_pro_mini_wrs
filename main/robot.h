@@ -37,7 +37,6 @@ private:
   int16_t ax, ay, az;
   int16_t gx, gy, gz;
 
-  int servo_position = 0;
   Servo myservo;
   myservo.attach(serv);
 
@@ -59,9 +58,8 @@ public:
     digitalWrite(led_b, blue);
   }
 
-  void Robot::servo(int position = 0) {
+  void Robot::servo(int position = 0) const{
     miservo.write(position);
-    servo_position = position;
   }
 
   int Robot::depth() const {
